@@ -1,0 +1,470 @@
+/*media queries start*/
+@media screen and (max-width: 1199px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .site-logo img {
+        max-width: 150px;
+    }
+
+    .site-nav a {
+        padding: 8px 8px !important;
+        display: inline-block;
+    }
+
+    .site-nav li {
+        font-size: 16px;
+    }
+
+    .link__content p {
+        line-height: 25px;
+    }
+
+    .useful-links ul {
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .site-nav a {
+        display: inline-block;
+        padding: 8px 4px !important;
+    }
+
+    .useful-links ul {
+        gap: 11px;
+    }
+
+    .contact-us a {
+        font-size: 15px;
+    }
+
+    .site-nav li {
+        font-size: 15px;
+    }
+
+    .site-logo img {
+        max-width: 110px;
+    }
+
+    .contact-text li::before {
+        transform: translate(-15px, 12px);
+    }
+
+    .contact-text h3 {
+        font-size: 18px;
+    }
+
+    .delux__content h3 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /*header start*/
+    .site-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 300px;
+        background: #001f3f;
+        transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+        transform: translateX(-100%);
+    }
+
+    .site-nav ul {
+        display: block;
+        padding: 75px 60px 0;
+        display: inline-block !important;
+    }
+
+    .menu-toggle {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .closed-menu {
+        font-size: 40px;
+        color: #ffffff;
+        position: absolute;
+        top: -5px;
+        right: 15px;
+        display: inline-block;
+    }
+
+    .closed-menu a:hover {
+        color: #000000;
+    }
+
+    .closed-menu {
+        display: block;
+    }
+
+    .toggle .site-nav {
+        transform: translateX(0);
+    }
+
+    .closed-menu {
+        display: block;
+    }
+
+    .site-header {
+        padding: 20px 0;
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 9999999;
+        transition: all 0.5s linear;
+    }
+
+    .site-header .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .site-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .site-nav li a {
+        font-size: 17px;
+        display: inline-block;
+        padding: 0.8rem 2rem;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: relative;
+        white-space: nowrap;
+        font-family: "Poppins";
+
+    }
+
+    .site-nav li a:hover::after {
+        width: 100%;
+        transition: all 0.3s linear;
+    }
+
+    .menu-toggle .bar-1,
+    .bar-2,
+    .bar-3 {
+        width: 2.5rem;
+        height: 2px;
+        background-color: #ffffff;
+        margin: 0.6rem 0;
+        transition: all 0.3s linear;
+        display: block;
+    }
+
+    ul.dropdown-content {
+        position: absolute;
+        width: 250px;
+        background: transparent;
+        top: 100%;
+        left: 0;
+        background: #ffffff;
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    // header.site-header.sticky .menu-toggle .bar-1,
+    // header.site-header.sticky .menu-toggle .bar-2,
+    // header.site-header.sticky .menu-toggle .bar-3 {
+    //     background-color: #ffffff;
+    // }
+
+    .menu-toggle .bar-1,
+    .bar-2,
+    .bar-3 {
+        width: 40px;
+        height: 2px;
+        background-color: #000000;
+        margin: 0.6rem 0;
+        transition: all 0.3s linear;
+        display: block;
+    }
+
+    .bar-2 {
+        width: 30px;
+    }
+
+    .bd-header-top__meta {
+        span {
+            display: block;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+
+        a {
+            display: block;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 600;
+            opacity: 0.7;
+        }
+    }
+
+    .linked__main h4 {
+        font-size: 23px;
+        color: #6cc133;
+        font-family: "Barlow";
+    }
+
+    .destination__content .row.igralnice a.btn.btn-content {
+        white-space: nowrap;
+    }
+
+    .contact__text h2 {
+        white-space: nowrap;
+    }
+
+    .linkpart__section {
+        padding: 10px 0 50px 0;
+    }
+
+    .delux__content p {
+        line-height: 23px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home__banner {
+        height: 450px;
+    }
+
+    .luxury__banner {
+        height: 350px;
+    }
+
+    .contact__banner.privacy {
+        height: 350px;
+    }
+
+    .contact__banner.terms {
+        height: 350px;
+    }
+
+    .home__bannertext p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .link__content p,
+    .link__contents p {
+        font-size: 14px;
+    }
+
+    .terms-banner {
+        height: 450px;
+    }
+
+    p.disclaimer__text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .useful-links li a {
+        font-size: 16px;
+    }
+
+    .contact-us {
+        align-items: start;
+    }
+
+    .destination-card.page h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .linked__section {
+        padding: 50px 0 0 0;
+    }
+
+    .casino-information.disclaimer {
+        padding: 0 0 40px 0;
+    }
+
+    .footer__logo i {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+    }
+
+    .luxury__bannertext p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .delux__content {
+        h3 {
+            font-size: 19px;
+        }
+
+        p {
+            line-height: 20px;
+            font-size: 14px;
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .luxury__section {
+        padding: 50px 0;
+    }
+
+    .delux__content {
+        padding: 40px 0;
+
+        p {
+            line-height: 23px;
+            font-size: 16px;
+        }
+    }
+
+    .delux__content.part {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .site-logo img {
+        max-width: 150px;
+    }
+
+    .site-nav {
+        width: 100%;
+    }
+
+    .site-nav ul {
+        display: block;
+    }
+
+    .home__bannertext {
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+
+    .link__content,
+    .link__contents {
+        padding: 20px 0px;
+    }
+
+    .links__main {
+        border: none;
+    }
+
+    p.disclaimer__text {
+        font-size: 15px;
+        line-height: 23px;
+        text-align: justify;
+    }
+
+    .useful-links ul {
+        align-items: center;
+        gap: 11px;
+        display: block;
+        text-align: center;
+
+        li a {
+            font-size: 18px;
+            padding-bottom: 10px !important;
+        }
+    }
+
+    .contact-us {
+        align-items: center;
+    }
+
+    .footer__logo {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
+    .contact-title p {
+        text-align: justify;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .contact-text p {
+        text-align: justify;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .contact__bannertext h1 {
+        font-size: 50px;
+    }
+
+    .luxury__bannertext h1 {
+        font-size: 50px;
+    }
+
+    .contact__disclamier p {
+        text-align: justify;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .casino-text p {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    .menu-toggle .bar-1,
+    .bar-2,
+    .bar-3 {
+        width: 24px;
+    }
+
+    .site-mail a {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .contact__text h2 {
+        font-size: 35px;
+    }
+
+}
+
+/*# sourceMappingURL=responsive.css.map */

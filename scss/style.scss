@@ -1,0 +1,786 @@
+/*global start*/
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 1.6rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    color: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1,
+h2 {
+    font-family: 'Neuton', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*global end*/
+
+/*header start*/
+header.site-header {
+    background: #ffffff;
+    font-size: 17px;
+    padding: 14px 0;
+    text-transform: capitalize;
+    color: #000000;
+    position: relative;
+    font-family: "Barlow";
+}
+
+.site-header .site-nav ul li a.active {
+    color: #ffc631;
+}
+
+.site-logo img {
+    max-width: 150px;
+}
+
+.site-nav a {
+    padding: 8px 12px !important;
+    display: inline-block;
+    color: #212529;
+}
+
+
+.site-nav a:hover {
+    color: #ffc631;
+}
+
+.site-header {
+    padding: 10px 0;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.closed-menu {
+    display: none;
+
+    a {
+        color: #ffc631;
+    }
+}
+
+.menu-toggle {
+    display: none !important;
+}
+
+
+/*header end*/
+/*footer start*/
+.footer {
+    background-color: #001f3f;
+
+
+}
+
+.footer-body {
+    padding: 60px 0;
+
+    h4 {
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        color: #ffffff;
+        margin: 0 0 2rem;
+    }
+}
+
+
+
+.our_service li a {
+    display: inline-block;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+
+.useful-links {
+    ul {
+        gap: 20px;
+    }
+
+    li a {
+        color: #ffffff;
+        text-transform: capitalize;
+        padding-bottom: 1rem;
+        font-family: "Barlow";
+        display: inline-block;
+
+        &:hover {
+            color: #ffc631;
+        }
+    }
+
+    h4 {
+        font-size: 26px;
+        font-family: auto;
+    }
+}
+
+.links__main {
+    border-right: 1px solid #fff;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.useful-links {
+    margin-top: 20px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    h4 {
+        font-size: 26px;
+        font-family: 'Barlow';
+        margin-bottom: 15px;
+        color: #ffc631;
+    }
+
+    p {
+        color: #ffffff;
+        margin: 0 0 2rem;
+    }
+
+    a {
+        color: #ffffff;
+
+        &:hover {
+            color: #ffc631;
+        }
+    }
+}
+
+.footer__logo {
+    a {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: #fff;
+        margin: 13px 13px 0 0;
+        display: inline-block;
+    }
+
+    i {
+        width: 60px;
+        height: 60px;
+        background: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 30px;
+        color: #ffc631;
+        font-size: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-family: 'Barlow';
+        margin-bottom: 15px;
+        color: #ffc631;
+    }
+}
+
+
+
+
+/*footer end*/
+
+
+/*Start-banner-css*/
+.home__banner {
+    background-image: url(../images/homebanner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    object-fit: cover;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.3);
+        content: '';
+    }
+}
+
+.home__bannertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+
+    h1 {
+        font-size: 60px;
+        color: #ffc631;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 20px 0;
+        font-family: 'Roboto';
+    }
+}
+
+/*End-banner-css*/
+
+
+
+/*Start-link-css*/
+.casino-information.part p {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.linked__section {
+    padding: 50px 0;
+}
+
+.link__main {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 100%;
+    transition: all .3s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.link__card {
+    height: 100%;
+}
+
+.linked__picture img {
+    width: 100%;
+    border-radius: 40px;
+    transition: all .3s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.link__content {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: justify;
+
+    h3 {
+        color: #ffc631;
+        font-size: 20px;
+        font-family: 'Barlow';
+        font-weight: 600;
+    }
+
+    p {
+        color: #000;
+        font-size: 17px;
+        line-height: 23px;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+    }
+}
+
+.link__contents {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: justify;
+
+    h3 {
+        color: #ffc631;
+        font-size: 20px;
+        font-family: 'Barlow';
+        font-weight: 600;
+    }
+
+    p {
+        color: #000;
+        font-size: 17px;
+        line-height: 23px;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+    }
+}
+
+p.disclaimer__text {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.casino-information.part p {
+    text-align: center;
+    padding: 20px 0;
+}
+
+a.btn-home {
+    border: 1px solid #ffc631;
+    background: #ffc631;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+
+    &:hover {
+        color: #ffffff;
+        border: #212529;
+        background: #212529;
+    }
+}
+
+.link__btn {
+    padding: 24px 0;
+}
+
+.casino-information.disclaimer {
+    padding: 40px 0;
+}
+
+/*End-link-css*/
+
+/*Start-luksuzni-hoteli -css*/
+
+.luxury__banner {
+    background-image: url(../images/luxurybg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    object-fit: cover;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        content: '';
+    }
+}
+
+.luxury__bannertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+
+    h1 {
+        font-size: 60px;
+        color: #ffc631;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 20px 0;
+        font-family: 'Roboto';
+    }
+}
+
+.luxury__section {
+    padding: 100px 0;
+}
+
+.delux__picture {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #ffc631a6;
+        transform: scale(0);
+        transition: all .5s;
+        width: 100%;
+        height: 100%;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+    }
+}
+
+.delux__picture:hover::after {
+    transform: scale(1);
+}
+
+.delux__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 25px;
+
+    h3 {
+        font-size: 30px;
+        font-family: 'Barlow';
+        line-height: 40px;
+        color: #ffc631;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+        font-family: 'Barlow';
+        line-height: 28px;
+        text-align: justify;
+    }
+}
+
+.delux__content.part {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+/*End-luksuzni-hoteli -css*/
+
+/*Start-casino-hoteli -css*/
+.luxury__banner.casino {
+    background-image: url(../images/casinobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.casino-text {
+    padding: 50px 0;
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+.luxury__section.casino {
+    padding: 0 0 100px 0;
+}
+
+/*End-casino-hoteli -css*/
+
+
+/*Start kontaktiraj-nas css*/
+.contact__main {
+    padding: 50px 0;
+}
+
+.contact__banner {
+    background-image: url(../images/contactbg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.contact__bannertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+
+    h1 {
+        font-size: 60px;
+        color: #ffc631;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+
+.contact-title {
+    h2 {
+        font-size: 25px;
+        color: #ffc631;
+        font-family: 'Barlow';
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 26px;
+        font-family: 'Barlow';
+    }
+}
+
+.contact-text {
+    position: relative;
+
+    li {
+        font-size: 17px;
+        line-height: 26px;
+        font-family: "Barlow";
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background: #ffc631;
+            border-radius: 5px;
+            border-radius: 5px;
+            transform: translate(-15px, 8px);
+        }
+    }
+
+    h3 {
+        font-size: 20px;
+        color: #ffc631;
+        font-family: 'Barlow';
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 26px;
+        font-family: "Barlow";
+    }
+}
+
+.contact__disclamier {
+    h4 {
+        font-size: 20px;
+        color: #ffc631;
+        font-family: 'Barlow';
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 26px;
+        font-family: "Barlow";
+    }
+}
+
+/*End Kontaktiraj-nas css*/
+
+/*Start zasebnost css*/
+.contact__banner.privacy {
+    background-image: url(../images/privacybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+/*End zasebnost css*/
+
+/*Start lowwage css*/
+.luxury__banner.lowwage {
+    background-image: url(../images/lowwagebg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+
+.lowcard__main {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 100%;
+    transition: all .3s;
+    height: 100%;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.lowcard__picture img {
+    width: 100%;
+    height: 303px;
+    object-fit: cover;
+}
+
+
+.lowcard__content {
+    padding: 20px;
+
+    h3 {
+        color: #ffc631;
+        font-size: 22px;
+        font-family: 'Barlow';
+        font-weight: 500;
+    }
+
+    p {
+        color: #000;
+        font-size: 17px;
+        line-height: 23px;
+        font-family: 'Barlow';
+        text-align: justify;
+    }
+}
+
+.lowbtn {
+    padding: 20px 0;
+
+    a {
+        color: #ffffff;
+        font-size: 18px;
+        border: 1px solid #ffc631;
+        background: #ffc631;
+        padding: 10px;
+        border-radius: 6px;
+    }
+}
+
+.lowcards__section {
+    padding: 50px 0;
+}
+
+.low-down {
+    padding: 50px 0 0 0;
+}
+
+.col-lg-4.col-md-6.col-sm-12.space{
+    padding-bottom: 30px;
+}
+/*End lowwage css*/
+
+/*Start attraction css*/
+.luxury__banner.attraction {
+    background-image: url(../images/attractionbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+/*End attraction css*/
+
+/*Start Pogoji Uporabe css*/
+.contact__banner.terms {
+    background-image: url(../images/termsbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+/*End Pogoji Uporabe css*/
+
+
+
+/*# sourceMappingURL=style.css.map */
