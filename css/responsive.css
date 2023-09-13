@@ -193,7 +193,7 @@
   }
   .lowcard__content {
     padding: 20px;
-    height: 270px;
+    height: auto;
   }
 }
 @media screen and (max-width: 768px) {
