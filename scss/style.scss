@@ -211,17 +211,22 @@ header.site-header {
     }
 
     i {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 49px;
         background: #ffffff;
         border: 1px solid #ffffff;
         border-radius: 30px;
         color: #ffc631;
-        font-size: 38px;
+        font-size: 28px;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: all 0.3s;
+
+        &:hover {
+            color: #fff;
+            background: #ffc631;
+        }
     }
 
     h3 {
@@ -738,9 +743,10 @@ a.btn-home {
     padding: 50px 0 0 0;
 }
 
-.col-lg-4.col-md-6.col-sm-12.space{
+.col-lg-4.col-md-6.col-sm-12.space {
     padding-bottom: 30px;
 }
+
 /*End lowwage css*/
 
 /*Start attraction css*/
@@ -759,9 +765,11 @@ a.btn-home {
         background-color: rgba(0, 0, 0, 0.6);
     }
 }
+
 .top__text {
     padding: 50px 0 0 0;
 }
+
 /*End attraction css*/
 
 /*Start Pogoji Uporabe css*/
