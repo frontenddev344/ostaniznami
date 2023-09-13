@@ -655,6 +655,11 @@ a.btn-home:hover {
   padding: 10px;
   border-radius: 6px;
 }
+.lowbtn a:hover {
+  color: #ffffff;
+  border: #212529;
+  background: #212529;
+}
 
 .lowcards__section {
   padding: 50px 0;

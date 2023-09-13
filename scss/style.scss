@@ -732,6 +732,11 @@ a.btn-home {
         background: #ffc631;
         padding: 10px;
         border-radius: 6px;
+        &:hover{
+            color: #ffffff;
+            border: #212529;
+            background: #212529;
+        }
     }
 }
 
