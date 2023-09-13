@@ -193,7 +193,6 @@
   }
   .lowcard__content {
     padding: 20px;
-    height: auto;
   }
 }
 @media screen and (max-width: 768px) {
@@ -270,9 +269,6 @@
   }
   .delux__content.part {
     padding-right: 0;
-  }
-  .lowcard__content {
-    height: auto;
   }
 }
 @media screen and (max-width: 575px) {
