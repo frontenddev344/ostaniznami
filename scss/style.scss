@@ -702,6 +702,13 @@ a.btn-home {
     object-fit: cover;
 }
 
+.lowcard__content.custom {
+    height: 250px;
+}
+
+.lowcard__content.custom1 {
+    height: 300px;
+}
 
 .lowcard__content {
     padding: 20px;
@@ -794,6 +801,7 @@ a.btn-home {
         background-color: rgba(0, 0, 0, 0.6);
     }
 }
+
 .col-lg-6.col-md-6.col-sm-12.centerally {
     display: -webkit-flex;
 }

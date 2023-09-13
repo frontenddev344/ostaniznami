@@ -627,6 +627,14 @@ a.btn-home:hover {
   object-fit: cover;
 }
 
+.lowcard__content.custom {
+  height: 250px;
+}
+
+.lowcard__content.custom1 {
+  height: 300px;
+}
+
 .lowcard__content {
   padding: 20px;
 }
