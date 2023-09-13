@@ -653,7 +653,7 @@ a.btn-home {
     background-image: url(../images/privacybg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: inherit;
     height: 450px;
     position: relative;
 
@@ -661,7 +661,7 @@ a.btn-home {
         content: '';
         position: absolute;
         inset: 0;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgb(0 0 0 / 32%);
     }
 }
 
