@@ -690,12 +690,16 @@ a.btn-home {
     height: 100%;
     transition: all .3s;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 
     &:hover {
         transform: translateY(-10px);
     }
 }
-
+.lowcard__picture {
+    height: 100%;
+}
 .lowcard__picture img {
     width: 100%;
     height: 303px;
@@ -705,6 +709,7 @@ a.btn-home {
 
 .lowcard__content {
     padding: 20px;
+    height: 100%;
 
     h3 {
         color: #ffc631;
@@ -794,6 +799,10 @@ a.btn-home {
         background-color: rgba(0, 0, 0, 0.6);
     }
 }
+.col-lg-6.col-md-6.col-sm-12.centerally {
+    display: -webkit-flex;
+}
+
 
 /*End Pogoji Uporabe css*/
 
