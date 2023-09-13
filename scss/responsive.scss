@@ -241,6 +241,10 @@
     .delux__content p {
         line-height: 23px;
     }
+    .lowcard__content {
+        padding: 20px;
+        height: 270px;
+    }
 }
 
 
@@ -342,6 +346,9 @@
 
     .delux__content.part {
         padding-right: 0;
+    }
+    .lowcard__content {
+        height: auto;
     }
 }
 
