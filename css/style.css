@@ -616,15 +616,9 @@ a.btn-home:hover {
   height: 100%;
   transition: all 0.3s;
   height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 .lowcard__main:hover {
   transform: translateY(-10px);
-}
-
-.lowcard__picture {
-  height: 100%;
 }
 
 .lowcard__picture img {
@@ -635,7 +629,6 @@ a.btn-home:hover {
 
 .lowcard__content {
   padding: 20px;
-  height: 100%;
 }
 .lowcard__content h3 {
   color: #ffc631;
