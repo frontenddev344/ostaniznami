@@ -55,7 +55,7 @@ p {
 header.site-header {
   background: #ffffff;
   font-size: 17px;
-  padding: 14px 0;
+  padding: 6px 0;
   text-transform: capitalize;
   color: #000000;
   position: relative;
@@ -67,7 +67,7 @@ header.site-header {
 }
 
 .site-logo img {
-  max-width: 150px;
+  max-width: 130px;
 }
 
 .site-nav a {

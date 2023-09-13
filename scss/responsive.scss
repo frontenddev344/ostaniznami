@@ -241,6 +241,7 @@
     .delux__content p {
         line-height: 23px;
     }
+
     .lowcard__content {
         padding: 20px;
         height: auto;
@@ -347,16 +348,13 @@
     .delux__content.part {
         padding-right: 0;
     }
+
     .lowcard__content {
         height: auto;
     }
 }
 
 @media screen and (max-width: 575px) {
-    .site-logo img {
-        max-width: 150px;
-    }
-
     .site-nav {
         width: 100%;
     }
