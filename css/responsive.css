@@ -349,6 +349,9 @@
     text-align: justify;
     line-height: 26px;
   }
+  .useful-links {
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 395px) {
   .menu-toggle .bar-1,
