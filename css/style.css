@@ -215,7 +215,7 @@ header.site-header {
 /*footer end*/
 /*Start-banner-css*/
 .home__banner {
-  background-image: url(../images/homebanner.jpeg);
+  background-image: url(../images/homebanner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -365,7 +365,7 @@ a.btn-home:hover {
 /*End-link-css*/
 /*Start-luksuzni-hoteli -css*/
 .luxury__banner {
-  background-image: url(../images/luxurybg.jpeg);
+  background-image: url(../images/luxurybg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -464,7 +464,7 @@ a.btn-home:hover {
 /*End-luksuzni-hoteli -css*/
 /*Start-casino-hoteli -css*/
 .luxury__banner.casino {
-  background-image: url(../images/casinobg.jpg);
+  background-image: url(../images/casinobg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -497,7 +497,7 @@ a.btn-home:hover {
 }
 
 .contact__banner {
-  background-image: url(../images/contactbg.avif);
+  background-image: url(../images/contactbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -597,7 +597,7 @@ a.btn-home:hover {
 /*End zasebnost css*/
 /*Start lowwage css*/
 .luxury__banner.lowwage {
-  background-image: url(../images/lowwagebg.avif);
+  background-image: url(../images/lowwagebg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
