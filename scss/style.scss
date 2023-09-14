@@ -703,11 +703,11 @@ a.btn-home {
 }
 
 .lowcard__content.custom {
-    height: 250px;
+    height: 100%;
 }
 
 .lowcard__content.custom1 {
-    height: 300px;
+    height: 100%;
 }
 
 .lowcard__content {
@@ -794,7 +794,7 @@ a.btn-home {
     height: 450px;
     position: relative;
 
-    &::after {
+    &::after {  
         content: '';
         position: absolute;
         inset: 0;

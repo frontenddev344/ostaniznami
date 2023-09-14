@@ -628,11 +628,11 @@ a.btn-home:hover {
 }
 
 .lowcard__content.custom {
-  height: 250px;
+  height: 100%;
 }
 
 .lowcard__content.custom1 {
-  height: 300px;
+  height: 100%;
 }
 
 .lowcard__content {
