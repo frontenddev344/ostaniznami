@@ -650,6 +650,7 @@ a.btn-home:hover {
   line-height: 23px;
   font-family: "Barlow";
   text-align: justify;
+  min-height: max-content;
 }
 
 .lowbtn {
