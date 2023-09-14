@@ -613,10 +613,10 @@ a.btn-home:hover {
 
 .lowcard__main {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  height: 100%;
   transition: all 0.3s;
-  height: 100%;
+  height: 590px;
   flex: 1;
+  position: relative;
   border-bottom: 1px solid #000;
 }
 .lowcard__main:hover {
@@ -635,7 +635,6 @@ a.btn-home:hover {
 
 .lowcard__content.custom1 {
   height: 100%;
-  display: table;
 }
 
 .lowcard__content {
@@ -653,11 +652,13 @@ a.btn-home:hover {
   line-height: 23px;
   font-family: "Barlow";
   text-align: justify;
-  min-height: max-content;
 }
 
 .lowbtn {
   padding: 20px 0;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 90%;
 }
 .lowbtn a {
   color: #ffffff;
@@ -666,8 +667,6 @@ a.btn-home:hover {
   background: #ffc631;
   padding: 10px;
   border-radius: 6px;
-  display: table-cell;
-  vertical-align: middle;
 }
 .lowbtn a:hover {
   color: #ffffff;
