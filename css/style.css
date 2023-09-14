@@ -617,7 +617,6 @@ a.btn-home:hover {
   height: 590px;
   flex: 1;
   position: relative;
-  border-bottom: 1px solid #000;
 }
 .lowcard__main:hover {
   transform: translateY(-10px);
