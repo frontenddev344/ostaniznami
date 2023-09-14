@@ -1,4 +1,9 @@
 /*media queries start*/
+@media screen and (max-width: 1250px) {
+  .lowcard__content {
+    min-height: 300px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .container {
     padding: 0 20px;

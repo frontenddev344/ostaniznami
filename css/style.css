@@ -629,6 +629,7 @@ a.btn-home:hover {
 
 .lowcard__content {
   padding: 20px 20px 90px 20px;
+  min-height: 245px;
 }
 .lowcard__content h3 {
   color: #ffc631;
