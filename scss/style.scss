@@ -690,6 +690,8 @@ a.btn-home {
     height: 100%;
     transition: all .3s;
     height: 100%;
+    flex: 1;
+    border-bottom: 1px solid #000;
 
     &:hover {
         transform: translateY(-10px);
@@ -708,6 +710,7 @@ a.btn-home {
 
 .lowcard__content.custom1 {
     height: 100%;
+    display: table;
 }
 
 .lowcard__content {
@@ -740,6 +743,8 @@ a.btn-home {
         background: #ffc631;
         padding: 10px;
         border-radius: 6px;
+        display: table-cell;
+     vertical-align: middle;
 
         &:hover {
             color: #ffffff;
