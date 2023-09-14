@@ -1,7 +1,7 @@
 /*media queries start*/
 @media screen and (max-width: 1250px) {
     .lowcard__content{
-        min-height:300px;
+        min-height:340px;
         }
 }
 @media screen and (max-width: 1199px) {
@@ -350,6 +350,9 @@
     .delux__content.part {
         padding-right: 0;
     }
+    .lowcard__content{
+        min-height:300px;
+        }
 }
 
 @media screen and (max-width: 575px) {
