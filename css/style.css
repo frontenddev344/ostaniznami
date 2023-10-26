@@ -219,7 +219,7 @@ header.site-header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 450px;
   object-fit: cover;
   position: relative;
 }
@@ -717,6 +717,15 @@ a.btn-home:hover {
 
 .col-lg-6.col-md-6.col-sm-12.centerally {
   display: -webkit-flex;
+}
+
+section.bnr-dis {
+  padding-top: 40px;
+}
+section.bnr-dis .text-wrapper h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 14px;
 }
 
 /*End Pogoji Uporabe css*/
