@@ -722,10 +722,6 @@ a.btn-home:hover {
 section.bnr-dis {
   padding-top: 40px;
 }
-section.bnr-dis .text-wrapper {
-  box-shadow: 0 0 7px rgba(255, 198, 49, 0.39);
-  padding: 30px;
-}
 section.bnr-dis .text-wrapper h1 {
   font-size: 30px;
   font-weight: 500;
