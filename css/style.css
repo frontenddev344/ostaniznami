@@ -744,6 +744,12 @@ section.bnr-dis .text-wrapper h1 {
   margin-bottom: 14px;
 }
 
+.text-wrapper h3 {
+  font-family: "Neuton";
+  font-size: 26px;
+  color: #000000;
+}
+
 /*End Pogoji Uporabe css*/
 
 
