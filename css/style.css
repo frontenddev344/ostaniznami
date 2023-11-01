@@ -253,6 +253,22 @@ header.site-header {
   font-family: "Roboto";
 }
 
+.lowcard__content.index {
+  padding: 20px 0 30px 0;
+}
+
+.delux__content.luksuzni {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.luxury__section.luksuzni {
+  padding: 16px 0 100px 0;
+}
+
 /*End-banner-css*/
 /*Start-link-css*/
 .casino-information.part p {
