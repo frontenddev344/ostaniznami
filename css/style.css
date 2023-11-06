@@ -817,6 +817,18 @@ section.bnr-dis .text-wrapper h1 {
 }
 
 /*End Faq css*/
+/*Start disclamiertext css*/
+.disclamiertext h3 {
+  font-size: 20px;
+  color: #ffc631;
+  margin-bottom: 25px;
+}
+.disclamiertext p {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+/*End disclamiertext css*/
 
 
 /*# sourceMappingURL=style.css.map */
